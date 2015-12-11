@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Game of Life</title>
+<script src="gol.js"></script>
+<script>
+    function go() {
+        var canvas = document.getElementById("golCanvas");
+        var ctx = canvas.getContext("2d");
+        print(ctx);
+    };
+</script>
+</head>
+<body onload="seed(); go();">
+<canvas id="golCanvas"></canvas>
+<br />
+<button onclick="tick(); go();">Tick</button>
+</body>
+</html>
