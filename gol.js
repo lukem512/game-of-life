@@ -57,6 +57,7 @@ function print(ctx) {
 }
 
 // Seed
+// This is a "scrubber"
 function seed() {
     for (var x = 0; x < width; x++)
         for (var y = 0; y < height; y++)
